@@ -1,0 +1,36 @@
+/*
+Dont move just cause nice to have here could probs be moved into index if we wanted to
+*/
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+Styles for the container class needs to be made into our rust theme
+*/
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 20px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+/*TODO: Hero sections add a .gameplay-Hero and a gameplay-image should cover the whole screen*/
+
+/* 
+style for our background color of the page to be a gradient from a dark red to a dark purple.
+--page-background is a variable that is set in the index.css file to be the background image of the page. 
+*/
+.page-background {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #381310bf, #1f0c3abc), var(--page-background);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
