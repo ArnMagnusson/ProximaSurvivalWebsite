@@ -22,6 +22,31 @@ Styles for the container class needs to be made into our rust theme
 
 /*TODO: Hero sections add a .gameplay-Hero and a gameplay-image should cover the whole screen*/
 
+.gameplay-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gameplay-hero h1 
+{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: rgb(200, 255, 0);
+}
+
+.gameplay-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* 
 style for our background color of the page to be a gradient from a dark red to a dark purple.
 --page-background is a variable that is set in the index.css file to be the background image of the page. 
