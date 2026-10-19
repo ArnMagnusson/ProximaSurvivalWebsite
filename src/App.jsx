@@ -2,6 +2,7 @@ import React from "react";
 import background from "./assets/background.jpg";
 import GamePlayImage from "./assets/GamePlayImage.png";
 import "./App.css";
+import InfoBox from "./Components/Infobox";
 
 const App = () => {
   return (
@@ -12,13 +13,19 @@ const App = () => {
           <h1>Proxima Survival</h1>
         </div>
       </section>
+  
     <div className="page-background" id="center">
       {/* <main className="container">
         
+       
       </main> */}
+       <InfoBox/>
     </div>
     </>
   );
 };
+
+
+
 
 export default App;
