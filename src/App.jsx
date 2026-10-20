@@ -7,7 +7,7 @@ import NavBar from "./NavBar";
 const App = () => {
   return (
     <>
-      <div>
+      <div id="navbar">
         <NavBar />
       </div>
       <section className="gameplay-hero">
