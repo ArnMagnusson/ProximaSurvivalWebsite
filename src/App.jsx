@@ -1,7 +1,5 @@
-import React from "react";
-import background from "./assets/background.jpg";
-import GamePlayImage from "./assets/GamePlayImage.png";
 import "./App.css";
+import RotateGear from "./RotateGear";
 import HeroSlideshow from "./HeroSlideshow";
 
 const App = () => {
@@ -16,9 +14,9 @@ const App = () => {
         </div>
       </section>
     <div className="page-background" id="center">
-      {/* <main className="container">
-        
-      </main> */}
+      <RotateGear id="gear1" />
+      <RotateGear id="gear2" RotationSpeed={-0.2} />
+      <RotateGear id="gear3" RotationSpeed={0.2} />
     </div>
     </>
   );
