@@ -2,6 +2,7 @@ import React from "react";
 import background from "./assets/background.jpg";
 import GamePlayImage from "./assets/GamePlayImage.png";
 import "./App.css";
+import Trailer from "./Trailer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       {/* <main className="container">
         
       </main> */}
+      <Trailer />
     </div>
     </>
   );
