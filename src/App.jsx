@@ -4,6 +4,7 @@ import GamePlayImage from "./assets/GamePlayImage.png";
 import "./App.css";
 import InfoBox from "./Components/Infobox";
 
+
 const App = () => {
   return (
     <>
@@ -19,7 +20,18 @@ const App = () => {
         
        
       </main> */}
-       <InfoBox/>
+       <InfoBox
+       title="hej"
+       textbox1="123"
+       textbox2="123"
+       />
+       
+       <InfoBox
+       title="goddag"
+       textbox1="jeg"
+       textbox2="hallo"
+       />
+       
     </div>
     </>
   );

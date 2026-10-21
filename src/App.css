@@ -5,6 +5,7 @@ Dont move just cause nice to have here could probs be moved into index if we wan
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 /*
