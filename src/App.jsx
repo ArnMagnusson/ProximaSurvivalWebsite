@@ -1,10 +1,14 @@
 import "./App.css";
+import NavBar from "./NavBar";
 import RotateGear from "./RotateGear";
 import HeroSlideshow from "./HeroSlideshow";
 
 const App = () => {
   return (
     <>
+      <div id="navbar">
+        <NavBar />
+      </div>
       <section className="gameplay-hero">
         <div>
           <HeroSlideshow timer={7000} />
