@@ -11,7 +11,7 @@ window.addEventListener("scroll", handleScroll);
 return () => window.removeEventListener("scroll", handleScroll)
 }, []);
 
-console.log(scrollY); /*Debug*/
+// console.log(scrollY); /*Debug*/
 
     return (
     <div id={id} className="gear">

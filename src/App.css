@@ -65,6 +65,13 @@ Styles for the container class needs to be made into our rust theme
   display: block;
 }
 
+@media (max-width: 769px) {
+  .gameplay-hero h1 {
+    left:35%;
+  }
+  
+}
+
 /* 
 style for our background color of the page to be a gradient from a dark red to a dark purple.
 --page-background is a variable that is set in the index.css file to be the background image of the page. 
