@@ -17,9 +17,10 @@ const Trailer = () => {
           The alien planet Proxima is already teeming<br />
           with life,  resources, and untold potential.<br />
           Making it the perfect place for humanity,<br />
-          to call home.
+          to make it's new home.<br />
           <br />
-          
+          Join thausands of other pioneers, and <br />
+          sign up for your very own journey!<br />
         </h3>
       </div>
       <div className="computer-Box">
